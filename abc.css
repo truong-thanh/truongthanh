@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+/*	background:hsla(0,3%,93%,1.00);*/
+}
+
+/*Reset CSS*/
+#khung{
+	width: 1200px;
+	height: 3012px;
+	background: hsla(0,0%,90%,1.00);
+	margin: 0 auto;
+}
+.khungtren{
+	width: 1200px;
+	height: 150px;
+	background: white;
+}
+#loggin{
+	width: 800px;
+	height: 20px;
+	float:right;
+	background: white;
+}
+#loggin h4{
+	background: white;
+}
+.diachi{
+	width:200px;
+	height: 15px;
+	float: left;
+	text-align: center;
+	background: white;
+}
+#loggin ul{
+	list-style: none;
+	text-align: right;
+}
+#loggin ul li{
+	display: inline-block;
+	background: white;
+}
+#loggin ul li a{
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+#loggin ul li a:hover{
+	color: blue;
+}
+.logo{
+	width: 300px;
+	height: 130px;
+	float: left;
+}
+img{
+	width: 300px;
+	height: 130px;
+		
+}
+.menu{
+	width: 900px;
+	height: 120px;
+	float: left;
+	background: white;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+	background: white;
+}
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	width: 115px;
+	height: 40px;
+	line-height: 20px;
+	background: white;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+.menu h3{
+	background: white;
+}
+.menu ul li a:hover{
+	background:#FFFFFF;
+	color:blue;
+}
+/*
+#khunggiua{
+	width: 1200px;
+	height: 2690px;
+	background: white;
+	float: left;
+*/
+.gioithieu{
+	width: 1200px;
+	height: 720px;
+	background: white;
+}
+.quangcao{
+	width: 1200px;
+	height: 50px;
+background: white;
+}
+.quangcao h3{
+	text-align: center;
+	line-height: 40px;
+	border: 2px solid #f90D1C;
+	color: #F90D1C;
+	background: white;
+}
+.hinhanh{
+	width: 1200px;
+	height: 600px;
+}
+.hinhanh img{
+	width: 1200px;
+	height: 600px;
+}
+.oto{
+	width: 1200px;
+	height: 1050px;
+/*	background: #3F506E;*/
+	border: 2px solid hsla(0,0%,0%,1.00);
+	margin-top: 10x;
+}
+.mohinhoto{
+	width: 1200px;
+	height: 70px;
+	background: white;
+	margin: 0 auto;
+}
+.mohinhoto h2{
+	text-align: center;
+	line-height: 70px;
+	color:white;
+	background:hsla(230,10%,44%,1.00);
+}
+.dunghinhanh{
+	width: 1200px;
+	height: 960px;
+}
+.hinhanhoto{
+	width: 290px;
+	height: 460px;
+	float: left;
+	border: 1px solid hsla(0,0%,0%,0.67);
+	margin-left: 5px;
+/*	background: #4F4141;*/
+	margin-top: 15px;
+
+}
+.hinhanhoto img{
+	width: 290px;
+	height: 400px;
+	float: left;
+}
+.hinhanhoto h4{
+	text-align: center;
+}
+.oto ul{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+}
+.dunghinhanh h3{
+	margin-left: 20px;
+}
+.dunghinhanh ul li{
+	display: inline-block;
+	text-align: center;
+	width: 115px;
+	height: 40px;
+	line-height: 20px;}
+.dunghinhanh ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+.dunghinhanh ul li a:hover{
+	color:blue;
+}
+.xemay{
+	width: 1200px;
+	height: 1070px;
+/*	background: hsla(359,49%,54%,1.00);*/
+	float: left;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+.dunghinhanhxemay{
+	width: 1200px;
+	height: 980px;
+/*	background: hsla(0,0%,0%,1.00);*/
+}
+.mohinhxemay{
+	width: 1200px;
+	height: 80px;
+	background: hsla(357,23%,83%,1.00);
+	margin: 0 auto;
+
+}
+.mohinhxemay h2{
+text-align: center;
+	line-height: 80px;
+	background:hsla(230,10%,44%,1.00);
+	color: white;
+}
+.dunghinhxemay{
+	width: 290px;
+	height: 470px;
+	float: left;
+	border: 1px solid hsla(0,0%,0%,0.67);
+	margin-left: 5px;
+/*	background: #4F4141;*/
+	margin-top: 15px;
+}
+.dunghinhxemay img{
+	width: 290px;
+	height: 390px;
+	margin: 0 auto;
+/*	border: 1px solid hsla(0,0%,0%,0.67)*/
+}
+.dunghinhxemay h4{
+	text-align: center;
+}
+.dunghinhxemay ul{
+	
+	list-style: none;
+	float: right;
+	margin-right: 30px
+}
+.dunghinhxemay h3{
+	margin-left: 20px;
+}
+.dunghinhxemay ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+.dunghinhxemay ul li a:hover{
+/*	background:#FFFFFF;*/
+	color:blue;
+}
+.cuoitrang{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 90px;
+/*	background: hsla(0,0%,90%,1.00);*/
+}
+.cty{
+	width: 630px;
+	height: 100px;
+	float: left;
+/*	background:  hsla(0,0%,90%,1.00);*/
+}
+.chinhanh{
+	width: 270px;
+	height: 100px;
+	float: left;
+/*	background:  hsla(0,0%,90%,1.00);*/
+}
+.cskh{
+	width: 300px;
+	height: 100px;
+	float: left;
+/*	background:  hsla(0,0%,90%,1.00);*/
+}
+.cskh h4{
+	color: red;
+/*	background:  hsla(0,0%,90%,1.00);*/
+}
+.cskh h3{
+/*	background: hsla(0,0%,90%,1.00);*/
+}
